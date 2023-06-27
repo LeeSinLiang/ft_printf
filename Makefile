@@ -13,7 +13,7 @@
 NAME = libftprintf.a
 CC = gcc
 CFLAGS = -Wall -Wextra -Werror
-CPPFLAGS = -I include -I libft
+CPPFLAGS = -I inc -I libft/inc
 SOURCES = ft_printf.c ft_string.c ft_nbr.c
 SRC = $(addprefix src/, $(SOURCES))
 OBJS = ${SRC:.c=.o}

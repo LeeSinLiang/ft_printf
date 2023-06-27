@@ -6,7 +6,7 @@
 /*   By: sinlee <sinlee@student42.fr>               +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/28 09:52:13 by sinlee            #+#    #+#             */
-/*   Updated: 2023/05/19 11:19:46 by sinlee           ###   ########.fr       */
+/*   Updated: 2023/05/05 17:08:47 by sinlee           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,8 @@
 # include <string.h>
 # include <unistd.h>
 # include <stdbool.h>
+# include <limits.h>
+# include <stdint.h>
 
 typedef struct s_list
 {
